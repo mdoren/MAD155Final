@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/change_main"
+        android:title="@string/changeMain"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/Bowser"
+                android:title="@string/bowser"
+                android:icon="@drawable/bowser00"/>
+            <item android:id="@+id/CaptainFalcon"
+                android:title="@string/captainFalcon"
+                android:icon="@drawable/captain00"/>
+            <item android:id="@+id/DonkeyKong"
+                android:title="@string/donkeyKong"
+                android:icon="@drawable/dk00"/>
+            <item android:id="@+id/DrMario"
+                android:title="@string/drMario"
+                android:icon="@drawable/dr00"/>
+            <item android:id="@+id/Falco"
+                android:title="@string/falco"
+                android:icon="@drawable/falco00"/>
+            <item android:id="@+id/Fox"
+                android:title="@string/fox"
+                android:icon="@drawable/fox00"/>
+            <item android:id="@+id/Ganondorf"
+                android:title="@string/ganondorf"
+                android:icon="@drawable/ganon00"/>
+            <item android:id="@+id/IceClimbers"
+                android:title="@string/iceClimbers"
+                android:icon="@drawable/ice00"/>
+            <item android:id="@+id/Jigglypuff"
+                android:title="@string/jigglypuff"
+                android:icon="@drawable/jiggly00"/>
+            <item android:id="@+id/Kirby"
+                android:title="@string/kirby"
+                android:icon="@drawable/kirby00"/>
+            <item android:id="@+id/Link"
+                android:title="@string/link"
+                android:icon="@drawable/link00"/>
+            <item android:id="@+id/Luigi"
+                android:title="@string/luigi"
+                android:icon="@drawable/luigi00"/>
+            <item android:id="@+id/Mario"
+                android:title="@string/mario"
+                android:icon="@drawable/mario00"/>
+            <item android:id="@+id/Marth"
+                android:title="@string/marth"
+                android:icon="@drawable/marth00"/>
+            <item android:id="@+id/Mewtwo"
+                android:title="@string/mewtwo"
+                android:icon="@drawable/mewtwo00"/>
+            <item android:id="@+id/MrGameAndWatch"
+                android:title="@string/mrGameAndWatch"
+                android:icon="@drawable/gnw00"/>
+            <item android:id="@+id/Ness"
+                android:title="@string/ness"
+                android:icon="@drawable/ness00"/>
+            <item android:id="@+id/Peach"
+                android:title="@string/peach"
+                android:icon="@drawable/peach00"/>
+            <item android:id="@+id/Pichu"
+                android:title="@string/pichu"
+                android:icon="@drawable/pichu00"/>
+            <item android:id="@+id/Pikachu"
+                android:title="@string/pikachu"
+                android:icon="@drawable/pika00"/>
+            <item android:id="@+id/Roy"
+                android:title="@string/roy"
+                android:icon="@drawable/roy00"/>
+            <item android:id="@+id/Samus"
+                android:title="@string/samus"
+                android:icon="@drawable/samus00"/>
+            <item android:id="@+id/Sheik"
+                android:title="@string/sheik"
+                android:icon="@drawable/sheik00"/>
+            <item android:id="@+id/Yoshi"
+                android:title="@string/yoshi"
+                android:icon="@drawable/yoshi00"/>
+            <item android:id="@+id/YoungLink"
+                android:title="@string/youngLink"
+                android:icon="@drawable/young00"/>
+            <item android:id="@+id/Zelda"
+                android:title="@string/zelda"
+                android:icon="@drawable/zelda00"/>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/change_tag"
+        android:title="@string/changeTag"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/change_name"
+        android:title="@string/changeName"
+        app:showAsAction="always" />
+
+
+
+</menu>
