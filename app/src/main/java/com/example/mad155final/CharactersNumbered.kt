@@ -1,0 +1,30 @@
+package com.example.mad155final
+
+data class CharactersNumbered(
+    val bowser: Int = R.id.Bowser,
+    val captainFalcon: Int = R.id.CaptainFalcon,
+    val donkeyKong: Int = R.id.DonkeyKong,
+    val drMario: Int = R.id.DrMario,
+    val falco: Int = R.id.Falco,
+    val fox: Int = R.id.Fox,
+    val ganondorf: Int = R.id.Ganondorf,
+    val iceClimbers: Int = R.id.IceClimbers,
+    val jigglypuff: Int = R.id.Jigglypuff,
+    val kirby: Int = R.id.Kirby,
+    val link: Int = R.id.Link,
+    val luigi: Int = R.id.Luigi,
+    val mario: Int = R.id.Mario,
+    val marth: Int = R.id.Marth,
+    val mewtwo: Int = R.id.Mewtwo,
+    val mrGameAndWatch: Int = R.id.MrGameAndWatch,
+    val ness: Int = R.id.Ness,
+    val peach: Int = R.id.Peach,
+    val pichu: Int = R.id.Pichu,
+    val pikachu: Int = R.id.Pikachu,
+    val roy: Int = R.id.Roy,
+    val samus: Int = R.id.Samus,
+    val sheik: Int = R.id.Sheik,
+    val yoshi: Int = R.id.Yoshi,
+    val youngLink: Int = R.id.YoungLink,
+    val zelda: Int = R.id.Zelda
+)
